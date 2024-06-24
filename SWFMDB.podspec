@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   
   s.source_files = 'Sources/**/*.{swift}'
-  s.resources = "Sources/**/*.{bundle,strings,xcassets}"
-  s.vendored_frameworks = [
-    'Sources/xx/xx.xcframework'
-  ]
+  # s.resources = "Sources/**/*.{bundle,strings,xcassets}"
+  # s.vendored_frameworks = [
+  #   'Sources/xx/xx.xcframework'
+  # ]
   
   # s.dependency "RxSwift"
   # s.dependency "RxCocoa"
