@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.10):
+    - FMDB/standard (= 2.7.10)
+  - FMDB/standard (2.7.10)
+  - SWFMDB (0.0.1):
+    - FMDB
+
+DEPENDENCIES:
+  - SWFMDB (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+
+EXTERNAL SOURCES:
+  SWFMDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: eae540775bf7d0c87a5af926ae37af69effe5a19
+  SWFMDB: 146b8fb1e39d534d9e0f1185c172ba30f5f50bf1
+
+PODFILE CHECKSUM: 372aa3e08dd31376e1fa6e413cfa489c49c885bc
+
+COCOAPODS: 1.15.2
